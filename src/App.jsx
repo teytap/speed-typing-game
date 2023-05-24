@@ -15,7 +15,8 @@ function App() {
 
   return (
     <div className="app">
-      <h1>Speed Typing Game</h1>
+      <img src="/rocket.png" className="logo" />
+      <h1 className="heading">Speed Typing Game</h1>
       <textarea
         name="typing-area"
         ref={inputRef}

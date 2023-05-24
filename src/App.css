@@ -42,7 +42,14 @@ button {
 button:disabled {
   cursor: not-allowed;
 }
-
+.logo {
+  width: 50px;
+  rotate: 70deg;
+  margin: -30px 0px;
+}
+.heading {
+  color: red;
+}
 h1 {
   font-size: 20px;
   text-align: center;
@@ -66,7 +73,7 @@ textarea:disabled {
 
 /* finished game animation */
 .result {
-  color: var(--blue);
+  color: red;
   animation-name: colors;
   animation-duration: 1s;
   font-size: 20px;
@@ -75,10 +82,17 @@ textarea:disabled {
   0% {
     color: #242424;
   }
-  25% {
+  20% {
     color: var(--blue);
   }
-  50% {
+  40% {
+    color: #242424;
+  }
+
+  60% {
+    color: var(--blue);
+  }
+  80% {
     color: #242424;
   }
   100% {
